@@ -1,0 +1,3 @@
+#!/bin/bash
+
+terrafrom destroy
