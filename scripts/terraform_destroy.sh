@@ -1,3 +1,3 @@
 #!/bin/bash
 
-terrafrom destroy
+terraform destroy

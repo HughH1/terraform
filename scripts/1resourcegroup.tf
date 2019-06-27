@@ -1,8 +1,8 @@
-variable "perfix" {
+variable "prefix" {
   default = "tfvmex"
   }
 
-resource "azurerm_resouce_group" "main"{
-    name = "${var.perfix}-resource"
+resource "azurerm_resource_group" "main"{
+    name = "${var.prefix}-resource"
     location = "uksouth"
  }      

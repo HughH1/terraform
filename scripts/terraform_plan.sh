@@ -1,4 +1,4 @@
 #!/bin/bash
 
-terraform apply
+terraform plan
 
