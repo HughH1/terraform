@@ -20,13 +20,13 @@ case $theInput in
         echo "Terraform is being installed"
         ./terraform_install.sh ;;    
     2)
-        echo "Terraform has been initalised"
+        echo "Terraform is being initalised"
         ./terraform_initalise.sh ;;       
     3)
-        echo "Terraform plan has been executed"
+        echo "Terraform plan is being executed"
         ./terraform_plan.sh ;;
     4)
-        echo "Terraform apply has been executed"
+        echo "Terraform apply is being executed"
         ./terraform_apply.sh ;;
     5)
         echo "Terraform status:"
